@@ -3,7 +3,7 @@
 	Plugin Name: LightGallery
 	Plugin URI:  https://dzine.io/products/lightgallery-wp-plugin/?WPPluginFree
 	Description: A customizable, modular, responsive, lightbox gallery plugin for jQuery
-	Version:     1.0.0
+	Version:     1.0.1
 	Author:      LightGallery Team
 	Author URI:  http://sachinchoolur.github.io/lightGallery/
 */
@@ -29,8 +29,8 @@
 
 			public function __construct()
 			{
-				$this->Version = '1.0.0';
-				$this->LibraryVersion = '1.3.8';
+				$this->Version = '1.0.1';
+				$this->LibraryVersion = '1.6.0';
 				$this->PluginFile = __FILE__;
 				$this->PluginName = 'LightGallery';
 				$this->PluginPath = trailingslashit( dirname( $this->PluginFile ) );
