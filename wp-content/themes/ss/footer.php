@@ -10,13 +10,7 @@
  */
 ?>
 
-<div id="root"></div>
-<script type="text/babel">
- ReactDOM.render(
-  <h1>Empty string!</h1>,
-  document.getElementById('root')
-  );
-</script>
+
 
 <?php wp_footer(); ?>
 </body>
